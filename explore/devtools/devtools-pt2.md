@@ -1,0 +1,2 @@
+1. When the numbers are fetched from the elements, the numbers are stored as their String representation. So when their sums are calculated, it concatnates the two numbers, instead of adding them.
+2. Before adding `num1` and `num2`, I converted them to Numbers first, using `Number()` function. So instead of concat, now the code will truely add the two numbers.
